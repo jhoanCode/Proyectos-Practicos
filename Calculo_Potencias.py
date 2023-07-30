@@ -2,7 +2,7 @@ def potencia(base, exponente):
     return base ** exponente
 
 def calculadora_potencias():
-    print("Calculadora de Potencias")
+    print("Calculadora de Potenciaciones")
     base = float(input("Ingrese el número base: "))
     exponente = float(input("Ingrese el exponente: "))
     resultado = potencia(base, exponente)
